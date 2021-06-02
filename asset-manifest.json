@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "//rainymood-like/static/css/main.5900f27d.chunk.css",
-    "main.js": "//rainymood-like/static/js/main.14eb3e4e.chunk.js",
-    "main.js.map": "//rainymood-like/static/js/main.14eb3e4e.chunk.js.map",
-    "runtime-main.js": "//rainymood-like/static/js/runtime-main.7b9d5622.js",
-    "runtime-main.js.map": "//rainymood-like/static/js/runtime-main.7b9d5622.js.map",
-    "static/js/2.e99c1f94.chunk.js": "//rainymood-like/static/js/2.e99c1f94.chunk.js",
-    "static/js/2.e99c1f94.chunk.js.map": "//rainymood-like/static/js/2.e99c1f94.chunk.js.map",
-    "static/js/3.77a40542.chunk.js": "//rainymood-like/static/js/3.77a40542.chunk.js",
-    "static/js/3.77a40542.chunk.js.map": "//rainymood-like/static/js/3.77a40542.chunk.js.map",
-    "index.html": "//rainymood-like/index.html",
-    "static/css/main.5900f27d.chunk.css.map": "//rainymood-like/static/css/main.5900f27d.chunk.css.map",
-    "static/js/2.e99c1f94.chunk.js.LICENSE.txt": "//rainymood-like/static/js/2.e99c1f94.chunk.js.LICENSE.txt",
-    "static/media/pause-button.984c5790.png": "//rainymood-like/static/media/pause-button.984c5790.png",
-    "static/media/play-button.61c2baf4.png": "//rainymood-like/static/media/play-button.61c2baf4.png",
-    "static/media/rain.b6dd19bc.mp3": "//rainymood-like/static/media/rain.b6dd19bc.mp3",
-    "static/media/index.css": "//rainymood-like/static/media/rainy-city.4d54cac4.jpg"
+    "main.css": "/rainymood-like/static/css/main.a7048beb.chunk.css",
+    "main.js": "/rainymood-like/static/js/main.14eb3e4e.chunk.js",
+    "main.js.map": "/rainymood-like/static/js/main.14eb3e4e.chunk.js.map",
+    "runtime-main.js": "/rainymood-like/static/js/runtime-main.129b7108.js",
+    "runtime-main.js.map": "/rainymood-like/static/js/runtime-main.129b7108.js.map",
+    "static/js/2.e99c1f94.chunk.js": "/rainymood-like/static/js/2.e99c1f94.chunk.js",
+    "static/js/2.e99c1f94.chunk.js.map": "/rainymood-like/static/js/2.e99c1f94.chunk.js.map",
+    "static/js/3.77a40542.chunk.js": "/rainymood-like/static/js/3.77a40542.chunk.js",
+    "static/js/3.77a40542.chunk.js.map": "/rainymood-like/static/js/3.77a40542.chunk.js.map",
+    "index.html": "/rainymood-like/index.html",
+    "static/css/main.a7048beb.chunk.css.map": "/rainymood-like/static/css/main.a7048beb.chunk.css.map",
+    "static/js/2.e99c1f94.chunk.js.LICENSE.txt": "/rainymood-like/static/js/2.e99c1f94.chunk.js.LICENSE.txt",
+    "static/media/pause-button.984c5790.png": "/rainymood-like/static/media/pause-button.984c5790.png",
+    "static/media/play-button.61c2baf4.png": "/rainymood-like/static/media/play-button.61c2baf4.png",
+    "static/media/rain.b6dd19bc.mp3": "/rainymood-like/static/media/rain.b6dd19bc.mp3",
+    "static/media/index.css": "/rainymood-like/static/media/rainy-city.4d54cac4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b9d5622.js",
+    "static/js/runtime-main.129b7108.js",
     "static/js/2.e99c1f94.chunk.js",
-    "static/css/main.5900f27d.chunk.css",
+    "static/css/main.a7048beb.chunk.css",
     "static/js/main.14eb3e4e.chunk.js"
   ]
 }
