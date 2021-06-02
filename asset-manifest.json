@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "//rainy-mood-like/static/css/main.0d13ebda.chunk.css",
+    "main.js": "//rainy-mood-like/static/js/main.14eb3e4e.chunk.js",
+    "main.js.map": "//rainy-mood-like/static/js/main.14eb3e4e.chunk.js.map",
+    "runtime-main.js": "//rainy-mood-like/static/js/runtime-main.20013e02.js",
+    "runtime-main.js.map": "//rainy-mood-like/static/js/runtime-main.20013e02.js.map",
+    "static/js/2.e99c1f94.chunk.js": "//rainy-mood-like/static/js/2.e99c1f94.chunk.js",
+    "static/js/2.e99c1f94.chunk.js.map": "//rainy-mood-like/static/js/2.e99c1f94.chunk.js.map",
+    "static/js/3.77a40542.chunk.js": "//rainy-mood-like/static/js/3.77a40542.chunk.js",
+    "static/js/3.77a40542.chunk.js.map": "//rainy-mood-like/static/js/3.77a40542.chunk.js.map",
+    "index.html": "//rainy-mood-like/index.html",
+    "static/css/main.0d13ebda.chunk.css.map": "//rainy-mood-like/static/css/main.0d13ebda.chunk.css.map",
+    "static/js/2.e99c1f94.chunk.js.LICENSE.txt": "//rainy-mood-like/static/js/2.e99c1f94.chunk.js.LICENSE.txt",
+    "static/media/pause-button.984c5790.png": "//rainy-mood-like/static/media/pause-button.984c5790.png",
+    "static/media/play-button.61c2baf4.png": "//rainy-mood-like/static/media/play-button.61c2baf4.png",
+    "static/media/rain.b6dd19bc.mp3": "//rainy-mood-like/static/media/rain.b6dd19bc.mp3",
+    "static/media/index.css": "//rainy-mood-like/static/media/rainy-city.4d54cac4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20013e02.js",
+    "static/js/2.e99c1f94.chunk.js",
+    "static/css/main.0d13ebda.chunk.css",
+    "static/js/main.14eb3e4e.chunk.js"
+  ]
+}
