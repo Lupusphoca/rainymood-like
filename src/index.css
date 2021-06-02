@@ -1,13 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+} /* style to initialize*/
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  /* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-size: auto;
+  background-repeat: no-repeat;
+  vertical-align: middle; */
+  background-image: url("./img/rainy-city.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* p {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+} */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: white;
+  text-align: center;
+  height: 20px; /* Height of the footer */
+}
+
+.audio-button {
+  width: 200px;
+  height: 200px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* .play-button:active {
+  width: 195px;
+  height: 195px;
+} */
+
+.pause-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: animate 5s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 0 100px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+/* .slider {
+  margin: 20px auto;
+  width: 250px;
+  display: block;
+
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 6.05px 0;
+} */
+
+input[type="range"].slider {
+  -webkit-appearance: none;
+  background: transparent; /* jdueck added dec2020 to fix firefox bug */
+  margin: 20px auto;
+  width: 250px;
+  display: block;
+}
+
+input[type="range"].slider:focus {
+  outline: none;
+}
+
+input[type="range"].slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #310000, 0px 0px 0px #4b0000;
+  background: #ffffff;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+
+input[type="range"].slider::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #ffffff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -6.05px;
+}
+
+input[type="range"].slider:focus::-webkit-slider-runnable-track {
+  background: #ffffff;
+}
+
+input[type="range"].slider::-moz-range-track {
+  width: 100%;
+  height: 2.9px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #310000, 0px 0px 0px #4b0000;
+  background: #ffffff;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}
+
+input[type="range"].slider::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #ffffff;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+input[type="range"].slider::-ms-track {
+  width: 100%;
+  height: 2.9px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type="range"].slider::-ms-fill-lower {
+  background: #f2f2f2;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #310000, 0px 0px 0px #4b0000;
+}
+
+input[type="range"].slider::-ms-fill-upper {
+  background: #ffffff;
+  border: 0px solid #000000;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #310000, 0px 0px 0px #4b0000;
+}
+
+input[type="range"].slider::-ms-thumb {
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d;
+  border: 0px solid #ffffff;
+  height: 15px;
+  width: 15px;
+  border-radius: 0px;
+  background: #ffffff;
+  cursor: pointer;
+  height: 17.9px; /* was 2.9px */
+}
+
+input[type="range"].slider:focus::-ms-fill-lower {
+  background: #ffffff;
+}
+
+input[type="range"].slider:focus::-ms-fill-upper {
+  background: #ffffff;
+}
+
+.social-media-image {
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.vertical-center {
+  margin: 0 auto;
+  width: 100%;
+
+  position: absolute;
+  overflow: visible;
+  text-align: center;
+  vertical-align: middle;
+
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  /* top and left move the object but his pivot isnt on the middle but on the top left corner,
+  the both -ms-transform and transform function move the object to have his pivot on the center */
 }
